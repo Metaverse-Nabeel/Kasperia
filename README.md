@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h1><b>Space Traverler's Hub</b></h1>
+  <h1><b>Kasperia</b></h1>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Traverler's Hub <a name="about-project"></a>
+# 📖 Kasperia <a name="about-project"></a>
 
-**Space Traverler's Hub** "This app is working with the real live data from the SpaceX API. Web application build for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions."
+**Kasperia** "A website about appliances. This website is made on React JS with Tailwind CSS."
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,9 +47,9 @@
   </ul>
 </details>
 <details>
-  <summary>CSS</summary>
+  <summary>Tailwind CSS</summary>
   <ul>
-    <li><a href="#">CSS</a></li>
+    <li><a href="#">Tailwind CSS</a></li>
   </ul>
 </details>
 
@@ -72,12 +72,6 @@
 
 - **[Setup with create-react-app]**
 - **[Setup linters for React/Redux]**
-- **[Setup React Bootstrap]**
-- **[Setup React Router & NavLinks]**
-- **[Fetch Rockets data form Rockets API]**
-- **[Reserve / Un-reserve Rockets]**
-- **[Show Reserved Rockets in My Profile]**
-- **[Jest Snapshot Testing for Components]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +79,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://space-travelers-hub-qmrw.onrender.com/)
+- [Live Demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,9 +97,9 @@ Browser
 
 ### Setup
 
-git clone https://github.com/Metaverse-Nabeel/Space-Travelers-Hub.git
+git clone https://github.com/Metaverse-Nabeel/Kasperia.git
 
-cd Math-Magicians
+cd Kasperia
 
 ### Install
 
@@ -168,7 +162,7 @@ If you like this project you can follow me and give the project a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-**Microverse**
+**To all those who give this project a star and motivate me for more contributions.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
