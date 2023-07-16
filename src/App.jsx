@@ -5,6 +5,7 @@ import Install from "./Views/Install";
 import Portfolio from "./Views/Portfolio";
 import About from "./Views/About";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path="/portfolio" element={<Portfolio />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </>
   );
 };
