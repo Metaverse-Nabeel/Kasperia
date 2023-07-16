@@ -3,13 +3,21 @@ import topSupply from "../assets/topSupply.svg";
 import supplyText from "../assets/supplyText.svg";
 import installText from "../assets/installText.svg";
 import installSection from "../assets/installSection.svg";
+import heroSection from "../assets/heroSection.svg";
+import heroFade from "../assets/heroFade.svg";
 import Featured from "../components/Featured";
 
 const Home = () => {
   return (
     <>
-      <section className="bg-hero bg-cover bg-center h-screen w-full mt-28">
-        <div className="bg-heroFade bg-cover h-screen w-1/2 float-right">
+      <section
+        className="bg-cover bg-center h-screen w-full mt-28"
+        style={{ backgroundImage: `url(${heroSection})` }}
+      >
+        <div
+          className="bg-cover h-screen w-1/2 float-right"
+          style={{ backgroundImage: `url(${heroFade})` }}
+        >
           <div className="flex h-screen items-center">
             <img className="h-1/5" src={heroText} alt="hero-text" />
           </div>
