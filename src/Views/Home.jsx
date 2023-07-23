@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </section>
       <section className="h-5/6 py-6" id="third-section">
-        <div className="flex justify-end">
+        <div className="flex justify-end pr-6">
           <div id="installText">
             <p className="text-6xl font-thin text-right">expert,</p>
             <p className="text-6xl font-thin">
