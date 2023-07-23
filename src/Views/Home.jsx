@@ -1,7 +1,6 @@
 import heroText from "../assets/heroText.svg";
 import topSupply from "../assets/topSupply.svg";
 import supplyText from "../assets/supplyText.svg";
-import installText from "../assets/installText.svg";
 import installSection from "../assets/installSection.svg";
 import heroSection from "../assets/heroSection.svg";
 import heroFade from "../assets/heroFade.svg";
@@ -39,7 +38,13 @@ const Home = () => {
       </section>
       <section className="h-5/6 py-6" id="third-section">
         <div className="flex justify-end">
-          <img className="w-3/5 h-32" src={installText} alt="installText" />
+          <div id="installText">
+            <p className="text-6xl font-thin text-right">expert,</p>
+            <p className="text-6xl font-thin">
+              <span className="font-bold">hassle-free </span>
+              installation
+            </p>
+          </div>
         </div>
         <div className="flex justify-center py-6">
           <img className="w-2/3" src={installSection} alt="installSection" />

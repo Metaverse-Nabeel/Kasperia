@@ -23,7 +23,7 @@ const Featured = () => {
             <h4 className="flex flex-wrap w-1/6 pr-2 font-medium text-2xl text-right">
               North Island College Student Housing
             </h4>
-            <p className="flex flex-wrap w-1/6 pr-3 font-light text-xl text-right">
+            <p className="flex flex-wrap w-0.5/6 pr-2 font-light text-xl text-right">
               Courtenay, BC
             </p>
           </div>
