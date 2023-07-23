@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="h-5/6 py-6">
+      <section className="h-5/6 py-6" id="third-section">
         <div className="flex justify-end">
           <img className="w-3/5 h-32" src={installText} alt="installText" />
         </div>
