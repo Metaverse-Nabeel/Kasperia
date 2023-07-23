@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-evenly py-5 navbar fixed ${
+      className={`flex justify-between py-5 navbar fixed pl-20 ${
         isScrolledToThirdSection ? "bg-black" : "bg-white"
       } top-0 left-0 w-full z-50 transition-transform duration-300 transform translate-y-0`}
     >
@@ -41,11 +41,11 @@ const Navbar = () => {
         </Link>
       </div>
       <nav
-        className={`w-2/3 flex justify-center items-center ${
+        className={`w-1/2 flex justify-center items-center ${
           isScrolledToThirdSection ? "text-white" : "text-black"
         }`}
       >
-        <ul className="flex justify-around w-3/5 font-custom">
+        <ul className="flex justify-around w-2/3 font-custom">
           <li className="hover:text-red-500 cursor-pointer">
             <Link to="/supply">Supply</Link>
           </li>
