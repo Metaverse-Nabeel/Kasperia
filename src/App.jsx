@@ -6,6 +6,8 @@ import Portfolio from "./Views/Portfolio";
 import About from "./Views/About";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Residential from "./Views/Residential";
+import Commercial from "./Views/Commercial";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route exact path="/install" element={<Install />} />
         <Route exact path="/portfolio" element={<Portfolio />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/residential" element={<Residential />} />
+        <Route exact path="/commercial" element={<Commercial />} />
       </Routes>
       <Footer />
     </>
