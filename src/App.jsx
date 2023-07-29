@@ -11,7 +11,7 @@ import Commercial from "./Views/Commercial";
 
 const App = () => {
   return (
-    <>
+    <div className="h-screen">
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -23,7 +23,7 @@ const App = () => {
         <Route exact path="/commercial" element={<Commercial />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 
