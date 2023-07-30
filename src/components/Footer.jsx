@@ -11,8 +11,8 @@ const Footer = () => {
           </div>
           <div className="flex justify-center items-center h-1/3">
             <p className="pr-2 font-normal text-lg">Follow us:</p>
-            <i className="fab fa-linkedin text-black-500 text-2xl px-2"></i>
-            <i className="fab fa-twitter text-black-400 text-2xl px-2"></i>
+            <i className="fab fa-linkedin text-black-500 text-2xl px-2 hover:cursor-pointer hover:text-blue-900"></i>
+            <i className="fab fa-twitter text-black-400 text-2xl px-2 hover:cursor-pointer hover:text-blue-400"></i>
           </div>
         </div>
       </div>

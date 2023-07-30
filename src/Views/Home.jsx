@@ -1,11 +1,11 @@
 import heroText from "../assets/heroText.svg";
 import topSupply from "../assets/topSupply.svg";
 import supplyText from "../assets/supplyText.svg";
-import installText from "../assets/installText.svg";
 import installSection from "../assets/installSection.svg";
 import heroSection from "../assets/heroSection.svg";
 import heroFade from "../assets/heroFade.svg";
 import Featured from "../components/Featured";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -28,18 +28,28 @@ const Home = () => {
         <div className="flex flex-col gap-6 h-3/4 justify-center pl-8 mt-32">
           <img className="w-1/3" src={supplyText} alt="supplyText" />
           <div className="flex flex-col mt-6 w-1/6">
-            <button className="bg-white block rounded-full py-3 px-4 mt-6 text-black uppercase font-medium hover:bg-gray-300 hover:text-white">
-              residential
-            </button>
-            <button className="bg-white block rounded-full py-3 px-4 mt-6 text-black uppercase font-medium hover:bg-gray-300 hover:text-white">
-              commercial
-            </button>
+            <Link to={"/residential"}>
+              <button className="bg-white block rounded-full py-3 px-4 mt-6 text-black uppercase font-medium hover:bg-gray-300 hover:text-white">
+                residential
+              </button>
+            </Link>
+            <Link to={"/commercial"}>
+              <button className="bg-white block rounded-full py-3 px-4 mt-6 text-black uppercase font-medium hover:bg-gray-300 hover:text-white">
+                commercial
+              </button>
+            </Link>
           </div>
         </div>
       </section>
-      <section className="h-5/6 py-6">
-        <div className="flex justify-end">
-          <img className="w-3/5 h-32" src={installText} alt="installText" />
+      <section className="h-5/6 py-6" id="third-section">
+        <div className="flex justify-end pr-6">
+          <div id="installText">
+            <p className="text-6xl font-thin text-right">expert,</p>
+            <p className="text-6xl font-thin">
+              <span className="font-bold">hassle-free </span>
+              installation
+            </p>
+          </div>
         </div>
         <div className="flex justify-center py-6">
           <img className="w-2/3" src={installSection} alt="installSection" />

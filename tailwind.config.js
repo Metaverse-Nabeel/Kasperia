@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ["Polly", "sans-serif"],
+        nexa: 'Nexa Light'
       },
     },
   },
