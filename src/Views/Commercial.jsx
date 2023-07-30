@@ -2,30 +2,42 @@ import CommercialImage from "../assets/commercial.svg";
 
 const Commercial = () => {
   return (
-    <section className="flex h-screen mt-32">
-      <div className="h-full w-3/5">
-        <img
-          className="h-full w-full object-cover"
-          src={CommercialImage}
-          alt="Triangle Background"
-        />
-      </div>
-      <div className="flex-col">
-        <h2 className="font-thin text-7xl">
-          <p className="text-right">Appliance packages</p>
+    <section className="h-screen mt-32">
+      <div
+        className="flex-col bg-no-repeat h-full w-full object-cover"
+        style={{ backgroundImage: `url(${CommercialImage})` }}
+      >
+        <h2 className="font-thin text-right text-7xl pr-32">
+          <p>Appliance packages</p>
           <p>
             {" "}
             for <span className="text-red-700"> commercial </span> projects:
           </p>
         </h2>
-        <div className="flex-col items-center justify-center py-12">
-          <p className="text-center text-lg">commercial kitchens</p>
-          <div className="border-b-8 rounded-l-lg rounded-r-lg w-12 border-black" />
-          <p className="text-center text-2xl">restaurants</p>
-          <div className="border-b-8 rounded-l-lg rounded-r-lg w-12 border-black" />
-          <p className="text-center text-2xl">soup kitchens</p>
-          <div className="border-b-8 rounded-l-lg rounded-r-lg w-12 border-black" />
-          <p className="text-center text-2xl">soup kitchens</p>
+        <div className="flex justify-end items-end pr-48 text-2xl pt-24">
+          <div className="flex flex-col items-center">
+            <div className="my-1">commercial kitchens</div>
+            <div className="h-8 my-1 flex items-center">
+              <div className="w-8 h-2 bg-black rounded-full"></div>
+            </div>
+            <div className="my-1">restaurants</div>
+            <div className="h-8 my-1 flex items-center">
+              <div className="w-8 h-2 bg-black rounded-full"></div>
+            </div>
+            <div className="my-1">soup kitchens</div>
+            <div className="h-8 my-1 flex items-center">
+              <div className="w-8 h-2 bg-black rounded-full"></div>
+            </div>
+            <div className="my-1">butcher shops</div>
+            <div className="h-8 my-1 flex items-center">
+              <div className="w-8 h-2 bg-black rounded-full"></div>
+            </div>
+            <div className="my-1">community centers</div>
+            <div className="h-8 my-1 flex items-center">
+              <div className="w-8 h-2 bg-black rounded-full"></div>
+            </div>
+            <div className="my-1">mixed use</div>
+          </div>
         </div>
       </div>
     </section>
